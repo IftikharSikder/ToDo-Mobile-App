@@ -171,8 +171,6 @@ class TodoHomePage extends ConsumerWidget {
                                 color: Colors.green,
                               ),
 
-
-
                               IconButton(
                                 onPressed: () {
                                   deleteMethod(context,task.id.toString(),ref);
@@ -180,7 +178,7 @@ class TodoHomePage extends ConsumerWidget {
                                 icon: const Icon(Icons.delete),
                                 color: Colors.redAccent,
                               ),
-                              
+
                             ],
                           ),
                         ),

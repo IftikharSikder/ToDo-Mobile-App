@@ -99,9 +99,6 @@ class SearchPage extends ConsumerWidget {
                           icon: const Icon(Icons.edit),
                           color: Colors.green,
                         ),
-
-
-
                         IconButton(
                           onPressed: () {
                             deleteMethod(context,task.id.toString(),ref);
@@ -109,11 +106,6 @@ class SearchPage extends ConsumerWidget {
                           icon: const Icon(Icons.delete),
                           color: Colors.redAccent,
                         ),
-
-
-
-
-
                       ],
                     ),
                   ),
